@@ -62,14 +62,6 @@ socialmediaapp/
 |-- pubspec.yaml               
 ```
 
-## Screenshots
-
-1. **Home Screen**: Displays a list of posts with options to view details or add a new post.
-2. **Post Details Screen**: View post details, existing comments, and add new comments.
-3. **Create Post Screen**: Add a new post with a title and body.
-
-(Add screenshots here if available)
-
 ## How to Contribute
 1. Fork this repository.
 2. Create a new branch:
