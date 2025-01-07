@@ -18,7 +18,7 @@ A Flutter project for managing posts and comments. This app interacts with an AP
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone <https://github.com/sathyaram771/socialmediaapp>
+   git clone https://github.com/sathyaram771/socialmediaapp
    ```
 2. Navigate to the project directory:
    ```bash
