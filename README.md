@@ -42,18 +42,24 @@ This app uses the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API.
 
 ## File Structure
 ```
-post-comments-manager/
+socialmediaapp/
 |-- lib/
+|   |-- main.dart
 |   |-- api/
-|   |   |-- api_service.dart   # API integration logic
+|   |   |-- api_service.dart   
 |   |-- models/
-|   |   |-- post_model.dart    # Post model
-|   |   |-- comment_model.dart # Comment model
+|   |   |-- post_model.dart  
+|   |   |-- comment_model.dart
+|   |   |-- user_model.dart
+|   |   |-- app_data.dart 
 |   |-- screens/
-|   |   |-- home_screen.dart   # Main screen with posts
-|   |   |-- create_post_screen.dart # Screen to create a post
-|   |   |-- post_details_screen.dart # Screen to view post details and comments
-|-- pubspec.yaml               # Project dependencies
+|   |   |-- home_screen.dart   
+|   |   |-- create_post_screen.dart 
+|   |   |-- post_details_screen.dart 
+|   |   |-- create_post_screen.dart
+|   |--exceptions/
+|   |   |-- app_exceptions.dart
+|-- pubspec.yaml               
 ```
 
 ## Screenshots
@@ -79,9 +85,6 @@ post-comments-manager/
    git push origin feature-name
    ```
 5. Create a pull request.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ## Acknowledgments
 - Thanks to [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for providing the free API.
