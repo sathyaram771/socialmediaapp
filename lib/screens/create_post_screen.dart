@@ -47,8 +47,8 @@ class CreatePostScreen extends StatelessWidget {
 
                   try {
                     await apiService.createPost(postData);
-                    Get.back(); // Navigate back to the previous screen
                     Get.snackbar('Success', 'Post created successfully');
+                    await Get.toNamed('/');
                   } catch (e) {
                     Get.snackbar('Error', 'Failed to create post');
                   }

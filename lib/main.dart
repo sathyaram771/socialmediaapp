@@ -4,12 +4,14 @@ import 'screens/home_screen.dart';
 import 'screens/post_details_screen.dart';
 import 'screens/user_profile_screen.dart';
 import 'screens/create_post_screen.dart';
+import '../models/global.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  final Global global = Global();
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
